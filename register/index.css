@@ -1,0 +1,44 @@
+/* ------ *\
+|   Main   |
+\* ------ */
+
+#main {
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 900px) {
+    #main {
+        padding-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #main {
+        padding-top: 5rem;
+    }
+}
+
+/* ------ *\
+|   Form   |
+\* ------ */
+
+#form {
+    position: relative;
+    display: block;
+    margin: 3rem auto;
+    width: 500px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#form .footer > div {
+    display: inline-block;
+}
+
+#form .footer > div:nth-child(1) {
+    top: .3rem;
+}
+
+#form .footer a {
+    color: var(--blue);
+}
